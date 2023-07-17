@@ -1,0 +1,46 @@
+body {
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#game-board {
+    position: relative;
+    height: 600px;
+    width: 300px;
+    border: 1px solid #fff;
+}
+
+.cell {
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #333;
+}
+
+.empty {
+    background: #222;
+}
+
+.tetromino {
+    background: #f00;
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    right: -100px;
+    font-size: 20px;
+}
+
+#next-piece {
+    position: absolute;
+    bottom: 10px;
+    right: -100px;
+    width: 120px;
+    height: 90px;
+}
